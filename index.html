@@ -105,21 +105,17 @@
 				</section>
 
 				<section>
-					<p>How do you get better at JS?</p>
-					<p class="fragment">Write more JS.</p>
+					<h3>How do you get better at JS?</h3>
+					<h2 class="fragment">Write more of it.</h2>
 					<aside class="notes">(testing gets you to do that)</aside>
 				</section>
 
 				<section>
-					Writing a simple JS test
+					<h2>Writing a simple JS test</h2>
 				</section>
 
 				<section>
-					Less trivial example (look on GitHub)
-				</section>
-
-				<section>
-					Testing frameworks
+					<h2>Testing frameworks</h2>
 				</section>
 
 				<section>
@@ -128,12 +124,12 @@
 						<li>Jasmine</li>
 						<li><a href="http://visionmedia.github.io/mocha/">Mocha</a></li>
 						<li><a href="http://qunitjs.com/">QUnit</a></li>
-						<li>YUI Test</li>
-						<li>JSUnit</li>
 						<li><a href="http://vowsjs.org/">Vows</a></li>
+						<li><a href="http://yuilibrary.com/projects/yuitest/">YUI Test</a></li>
 					</ul>
 					<aside class="notes">
 						I like Jasmine. Mocha is go to for a greenfield project, and it also lets you choose your assertion library.
+						JSUnit is no longer actively supported or maintained, but it's kind of the OG of JS unit testing.
 					</aside>
 				</section>
 
@@ -170,14 +166,15 @@
 				</section>
 
 				<section>
-					<h1>Yes, there are many kinds of testing.</h1>
+					<h2>Yes, there are many kinds of testing.</h2>
 				</section>
 
 				<section>
-					<h1>And we can tell the machines what to do.</h1>
+					<h2>And we can tell the machines what to do.</h2>
 				</section>
 
 				<section>
+					<h2>The glories of webdriver</h2>
 					<ul>
 						<li><a href="http://webdriver.io/">Webdriverjs</a></li>
 						<li><a href="http://casperjs.org/">CasperJS</a></li>
@@ -187,20 +184,31 @@
 				</section>
 
 				<section>
-					Hmm..
+					<h1>Hmm..</h1>
 				</section>
 
 				<section>
-					How do you enforce testing?
+					<h2>How do you enforce testing?</h2>
 				</section>
 
 				<section>
-					Teach your people to test (ex code retreat)
+					<h2>Teach your people to test (ex code retreat)</h2>
 				</section>
 
-				<section>Code coverage Istanbul</section>
+				<section>
+					<h2>Code coverage</h2>
+					<ul>
+						<li><a href="https://github.com/gotwarlost/istanbul">Istanbul</a></li>
+						<li><a href="http://blanketjs.org/">Blanket.js</a></li>
+						<li><a href="http://hrtimer.mozdev.org/">hrcov (Mozilla)</a></li>
+						<li><a href="https://github.com/tntim96/JSCover">JSCover</a></li>
+					</ul>
 
-				<section>Esprima</section>
+					<aside class="notes">
+						Istanbul has my favorite breakdown of coverage (statements, branches, functions, lines), rather
+						than just having lines of code (LOC), see http://gotwarlost.github.io/istanbul/public/coverage/lcov-report/index.html
+					</aside>
+				</section>
 
 				<section>Code review (must have tests)</section>
 
