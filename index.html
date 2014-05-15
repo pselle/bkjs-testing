@@ -112,6 +112,10 @@
 
 				<section>
 					<h2>Writing a simple JS test</h2>
+
+					<aside class="notes">
+						Demo time!
+					</aside>
 				</section>
 
 				<section>
@@ -128,7 +132,7 @@
 						<li><a href="http://yuilibrary.com/projects/yuitest/">YUI Test</a></li>
 					</ul>
 					<aside class="notes">
-						I like Jasmine. Mocha is go to for a greenfield project, and it also lets you choose your assertion library.
+						I like Jasmine. Mocha is nice for a greenfield project/for immediate CLI integration, and it also lets you choose your assertion library.
 						JSUnit is no longer actively supported or maintained, but it's kind of the OG of JS unit testing.
 					</aside>
 				</section>
@@ -141,11 +145,23 @@
 						<li><a href="https://github.com/LearnBoost/expect.js">Expect.js</a></li>
 						<li><a href="https://github.com/visionmedia/better-assert">better-assert</a></li>
 					</ul>
+					<aside class="notes">
+						People have preferences on these ... I'm somewhat ambivalent, as the words (expect, assert, should) are often used interchangeably and have more to do with your style (BDD/TDD) which doesn't matter if you aren't testing yet.
+					</aside>
 				</section>
 
 				<section>
 					<h2>Spies, stubs, mocks</h2>
 					<a href="http://sinonjs.org/">Sinon.js</a>
+					<aside class="notes">
+						Jasmine has its own spies, as do other test frameworks; Sinon is nice if you run into the limitations of those frameworks.
+
+						In unit testing, you only test code YOU wrote, testing other people's libraries is their job, and why you should use well-tested libraries. Generally, you can SPY on a function, STUB an object, and MOCK a service. They definitely overlap, so don't sweat it too much.
+
+						Spy is an object that records its interactions.
+						Stubs are fake objects.
+						Mocks are fake objects with expected behavior.
+					</aside>
 				</section>
 
 				<section>
@@ -181,6 +197,10 @@
 						<li><a href="https://github.com/cucumber/cucumber-js">Cucumber.js</a></li>
 						<li><a href="http://dalekjs.com/">DalekJS</a> (no Java!)</li>
 					</ul>
+
+					<aside class="notes">
+						Selenium is goddamn amazing. It can change your life.
+					</aside>
 				</section>
 
 				<section>
@@ -192,7 +212,8 @@
 				</section>
 
 				<section>
-					<h2>Teach your people to test (ex code retreat)</h2>
+					<h2>Teach your people to test</h2>
+					(ex code retreat)
 				</section>
 
 				<section>
