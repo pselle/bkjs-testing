@@ -8,13 +8,13 @@ describe("An area of my application", function() {
 });
 
 describe("cats", function() {
-    it("should be able to mae a cat", function() {
-        var c = new Cat();
-        assert.equal(typeof(c), 'object');
-    });
+    // it("should be able to make a cat", function() {
+    //     var c = new Cat();
+    //     assert.equal(typeof(c), 'object');
+    // });
 
-    it("should assign a default name", function() {
-        var c = new Cat();
-        assert.equal(c.name, 'Fluffy');
-    });
+    // it("should assign a default name", function() {
+    //     var c = new Cat();
+    //     assert.equal(c.name, 'Fluffy');
+    // });
 });
